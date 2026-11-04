@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Can I swim yet?</title>
+<meta name="description" content="Is your nearest London pond or lido open for swimming right now?">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏊</text></svg>">
+</head>
+<body class="state-loading">
+  <main>
+    <div class="group">
+      <h1 class="question">
+        <span>Can I swim in the</span>
+        <button type="button" class="venue-button" id="venue-button" aria-haspopup="dialog" aria-controls="picker">
+          <span id="venue-name">…</span>
+        </button>
+        <span>right now?</span>
+      </h1>
+
+      <div class="answer">
+        <p class="verdict" id="verdict">…</p>
+        <p class="detail" id="detail"></p>
+        <p class="countdown" id="countdown"></p>
+        <p class="where" id="where" hidden></p>
+        <p class="action" id="action"></p>
+      </div>
+
+      <section class="nearby" id="nearby" aria-labelledby="nearby-title">
+        <h2 id="nearby-title">Also nearby</h2>
+        <ul class="nearby-list" id="nearby-list"></ul>
+      </section>
+    </div>
+
+    <footer>
+      <p>Made for the swimmers of London</p>
+    </footer>
+  </main>
+
+  <dialog class="picker" id="picker" aria-label="Choose a swimming spot">
+    <div class="picker-inner">
+      <div class="picker-top">
+        <button type="button" class="pill-button" id="picker-close">
+          <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 2 L10 10 M10 2 L2 10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          Close
+        </button>
+      </div>
+
+      <div class="picker-question">
+        <span>Can I swim in the</span>
+        <label class="search">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M15.5 15.5 L20.5 20.5" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
+          <span class="visually-hidden">Search swimming spots</span>
+          <input type="search" id="picker-search" placeholder="Type a pond or lido" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="go">
+        </label>
+        <span>right now?</span>
+      </div>
+
+      <p class="picker-meta" id="picker-meta" aria-live="polite"></p>
+      <div id="picker-nearest"></div>
+      <h2 class="list-label" id="picker-all">All places</h2>
+      <ul class="picker-list" id="picker-list"></ul>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

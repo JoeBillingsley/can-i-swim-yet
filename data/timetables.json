@@ -1,0 +1,1383 @@
+{
+  "generatedAt": "2026-11-03T00:09:58.567Z",
+  "venues": {
+    "mixed": {
+      "name": "Hampstead Mixed Pond",
+      "lat": 51.5591,
+      "lon": -0.1645,
+      "keywords": [
+        "hampstead heath",
+        "mixed bathing"
+      ],
+      "bookingUrl": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/activities-at-hampstead-heath/swimming-at-hampstead-heath/booking-for-swimming",
+      "source": {
+        "name": "City of London",
+        "url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/activities-at-hampstead-heath/swimming-at-hampstead-heath/swimming-opening-times"
+      },
+      "periods": [],
+      "note": "Closed for the winter. It re-opens in spring 2027.",
+      "publishedUntil": null,
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "ladies": {
+      "name": "Kenwood Ladies’ Pond",
+      "lat": 51.5667,
+      "lon": -0.1573,
+      "keywords": [
+        "hampstead heath",
+        "womens",
+        "women",
+        "kenwood"
+      ],
+      "bookingUrl": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/activities-at-hampstead-heath/swimming-at-hampstead-heath/booking-for-swimming",
+      "source": {
+        "name": "City of London",
+        "url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/activities-at-hampstead-heath/swimming-at-hampstead-heath/swimming-opening-times"
+      },
+      "periods": [
+        {
+          "from": "2026-10-25",
+          "to": "2026-11-21",
+          "sessions": [
+            {
+              "name": "Drop-in swimming",
+              "open": "07:00",
+              "lastEntry": "14:00",
+              "close": "14:15",
+              "booking": null
+            }
+          ]
+        },
+        {
+          "from": "2026-11-22",
+          "to": "2027-02-13",
+          "sessions": [
+            {
+              "name": "Drop-in swimming",
+              "open": "07:30",
+              "lastEntry": "14:30",
+              "close": "14:45",
+              "booking": null
+            }
+          ]
+        }
+      ],
+      "publishedUntil": "2027-02-13",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "mens": {
+      "name": "Highgate Men’s Pond",
+      "lat": 51.5629,
+      "lon": -0.1556,
+      "keywords": [
+        "hampstead heath",
+        "highgate"
+      ],
+      "bookingUrl": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/activities-at-hampstead-heath/swimming-at-hampstead-heath/booking-for-swimming",
+      "source": {
+        "name": "City of London",
+        "url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/activities-at-hampstead-heath/swimming-at-hampstead-heath/swimming-opening-times"
+      },
+      "periods": [
+        {
+          "from": "2026-10-25",
+          "to": "2026-11-21",
+          "sessions": [
+            {
+              "name": "Drop-in swimming",
+              "open": "07:00",
+              "lastEntry": "14:00",
+              "close": "14:15",
+              "booking": null
+            }
+          ]
+        },
+        {
+          "from": "2026-11-22",
+          "to": "2027-02-13",
+          "sessions": [
+            {
+              "name": "Drop-in swimming",
+              "open": "07:30",
+              "lastEntry": "14:30",
+              "close": "14:45",
+              "booking": null
+            }
+          ]
+        }
+      ],
+      "publishedUntil": "2027-02-13",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "lido": {
+      "name": "Parliament Hill Lido",
+      "lat": 51.5557,
+      "lon": -0.1497,
+      "keywords": [
+        "hampstead heath",
+        "gospel oak",
+        "pool"
+      ],
+      "bookingUrl": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/activities-at-hampstead-heath/swimming-at-hampstead-heath/booking-for-swimming",
+      "source": {
+        "name": "City of London",
+        "url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/activities-at-hampstead-heath/swimming-at-hampstead-heath/swimming-opening-times"
+      },
+      "periods": [
+        {
+          "from": "2026-09-28",
+          "to": "2027-04-30",
+          "sessions": [
+            {
+              "name": "Winter swimming",
+              "open": "07:00",
+              "lastEntry": "13:00",
+              "close": "13:30",
+              "booking": null
+            }
+          ]
+        }
+      ],
+      "publishedUntil": "2027-04-30",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "brockwell": {
+      "name": "Brockwell Lido",
+      "lat": 51.4544,
+      "lon": -0.109,
+      "keywords": [
+        "brixton",
+        "herne hill",
+        "brockwell park",
+        "lambeth",
+        "pool"
+      ],
+      "bookingUrl": "https://lambethcouncil.bookings.flow.onl/location/brockwell-lido/lido-lane-swim/",
+      "source": {
+        "name": "Active Lambeth",
+        "url": "https://active.lambeth.gov.uk/locations/brockwell-lido/"
+      },
+      "periods": [
+        {
+          "from": "2026-11-02",
+          "to": "2026-11-08",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:15",
+              "close": "16:15",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-02",
+          "to": "2026-11-08",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-15",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "16:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-15",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-16",
+          "to": "2026-11-22",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "16:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-16",
+          "to": "2026-11-22",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-23",
+          "to": "2026-11-29",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:45",
+              "close": "16:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-23",
+          "to": "2026-11-29",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-30",
+          "to": "2026-12-06",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:00",
+              "close": "15:45",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-30",
+          "to": "2026-12-06",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-07",
+          "to": "2026-12-13",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:00",
+              "close": "15:45",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-07",
+          "to": "2026-12-13",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-14",
+          "to": "2026-12-20",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:15",
+              "close": "15:45",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-14",
+          "to": "2026-12-20",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        }
+      ],
+      "note": "Pool times are set week by week.",
+      "publishedUntil": "2026-12-20",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "londonfields": {
+      "name": "London Fields Lido",
+      "lat": 51.5431,
+      "lon": -0.0625,
+      "keywords": [
+        "hackney",
+        "pool"
+      ],
+      "bookingUrl": "https://www.better.org.uk/leisure-centre/london/hackney/london-fields-lido/activities",
+      "source": {
+        "name": "Better",
+        "url": "https://www.better.org.uk/leisure-centre/london/hackney/london-fields-lido"
+      },
+      "periods": [
+        {
+          "from": "2026-11-02",
+          "to": "2026-11-08",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-15",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-16",
+          "to": "2026-11-22",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-23",
+          "to": "2026-11-29",
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        }
+      ],
+      "note": "Times are published a week at a time.",
+      "publishedUntil": "2026-11-29",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "oasis": {
+      "name": "Oasis Outdoor Pool",
+      "lat": 51.5157,
+      "lon": -0.1259,
+      "keywords": [
+        "covent garden",
+        "holborn",
+        "oasis sports centre",
+        "camden",
+        "lido"
+      ],
+      "bookingUrl": "https://www.better.org.uk/leisure-centre/london/camden/oasis-sports-centre/activities",
+      "source": {
+        "name": "Better",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/oasis-sports-centre"
+      },
+      "periods": [
+        {
+          "from": "2026-11-02",
+          "to": "2026-11-08",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-02",
+          "to": "2026-11-08",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "09:30",
+              "close": "17:30",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-15",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-15",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "09:30",
+              "close": "17:30",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-16",
+          "to": "2026-11-22",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-16",
+          "to": "2026-11-22",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "09:30",
+              "close": "17:30",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-23",
+          "to": "2026-11-29",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-23",
+          "to": "2026-11-29",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "09:30",
+              "close": "17:30",
+              "booking": "advised"
+            }
+          ]
+        }
+      ],
+      "note": "Times are published a week at a time.",
+      "publishedUntil": "2026-11-29",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "parkroad": {
+      "name": "Park Road Lido",
+      "lat": 51.5823,
+      "lon": -0.128,
+      "keywords": [
+        "hornsey",
+        "crouch end",
+        "haringey",
+        "park road pools",
+        "pool"
+      ],
+      "bookingUrl": "https://haringeyactivewellbeing.bookings.flow.onl/",
+      "source": {
+        "name": "Haringey Council",
+        "url": "https://haringey.gov.uk/leisure-parks-culture/leisure-centres/park-road-leisure-centre-lido/facilities-park-road/lido-park-road"
+      },
+      "periods": [
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:00",
+              "close": "17:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:00",
+              "close": "16:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-25",
+          "to": "2026-12-25",
+          "replace": true,
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:00",
+              "close": "16:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-28",
+          "to": "2026-12-28",
+          "replace": true,
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:00",
+              "close": "16:00",
+              "booking": "advised"
+            }
+          ]
+        }
+      ],
+      "note": "Weather permitting - the lido can close at short notice.",
+      "publishedUntil": "2026-12-29",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "tooting": {
+      "name": "Tooting Bec Lido",
+      "lat": 51.4325,
+      "lon": -0.1397,
+      "keywords": [
+        "tooting",
+        "streatham",
+        "wandsworth",
+        "pool"
+      ],
+      "bookingUrl": "https://www.placesleisure.org/centres/tooting-bec-lido/",
+      "source": {
+        "name": "South London Swimming Club",
+        "url": "https://slsc.org.uk/opening-times/"
+      },
+      "periods": [],
+      "note": "Closed to the public for the winter. This year’s public season ran 1 May to 30 September; next year’s dates aren’t out yet. In winter only South London Swimming Club members can swim.",
+      "publishedUntil": null,
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "serpentine": {
+      "name": "Serpentine Lido",
+      "lat": 51.508,
+      "lon": -0.1663,
+      "keywords": [
+        "hyde park",
+        "the serpentine",
+        "royal parks",
+        "lake"
+      ],
+      "bookingUrl": "https://sportsandleisureroyalparks.bookings.flow.onl/",
+      "source": {
+        "name": "The Royal Parks",
+        "url": "https://sportsandleisure.royalparks.org.uk/hyde-park/swimming"
+      },
+      "periods": [],
+      "note": "Closed for winter. Available on weekends from mid-May, and daily from June to mid-September.",
+      "publishedUntil": null,
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "charlton": {
+      "name": "Charlton Lido",
+      "lat": 51.474,
+      "lon": 0.0382,
+      "keywords": [
+        "charlton",
+        "greenwich",
+        "woolwich",
+        "hornfair park",
+        "pool"
+      ],
+      "bookingUrl": "https://www.better.org.uk/leisure-centre/london/greenwich/charlton-lido/activities",
+      "source": {
+        "name": "Better",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/charlton-lido"
+      },
+      "periods": [
+        {
+          "from": "2026-11-02",
+          "to": "2026-11-08",
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-02",
+          "to": "2026-11-08",
+          "days": [
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "20:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-02",
+          "to": "2026-11-08",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "08:00",
+              "close": "18:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-15",
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-15",
+          "days": [
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "20:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-15",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "08:00",
+              "close": "18:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-16",
+          "to": "2026-11-22",
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-16",
+          "to": "2026-11-22",
+          "days": [
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "20:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-16",
+          "to": "2026-11-22",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "08:00",
+              "close": "18:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-23",
+          "to": "2026-11-29",
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-23",
+          "to": "2026-11-29",
+          "days": [
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "06:30",
+              "close": "20:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-23",
+          "to": "2026-11-29",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Outdoor pool swim",
+              "open": "08:00",
+              "close": "18:00",
+              "booking": "advised"
+            }
+          ]
+        }
+      ],
+      "note": "Times are published a week at a time.",
+      "publishedUntil": "2026-11-29",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "hampton": {
+      "name": "Hampton Pool",
+      "lat": 51.4176,
+      "lon": -0.3584,
+      "keywords": [
+        "hampton",
+        "richmond",
+        "twickenham",
+        "bushy park",
+        "lido"
+      ],
+      "bookingUrl": "https://southdownsleisure.legendonlineservices.co.uk/hampton_pools/bookingscentre/membertimetable",
+      "source": {
+        "name": "Hampton Pool",
+        "url": "https://hamptonpool.co.uk/"
+      },
+      "periods": [
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            0
+          ],
+          "sessions": [
+            {
+              "name": "Swimming",
+              "open": "09:00",
+              "close": "17:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            1
+          ],
+          "sessions": [
+            {
+              "name": "Swimming",
+              "open": "06:00",
+              "close": "11:30",
+              "booking": "advised"
+            },
+            {
+              "name": "Swimming",
+              "open": "11:45",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            2
+          ],
+          "sessions": [
+            {
+              "name": "Swimming",
+              "open": "06:00",
+              "close": "08:45",
+              "booking": "advised"
+            },
+            {
+              "name": "Swimming",
+              "open": "12:00",
+              "close": "17:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            3
+          ],
+          "sessions": [
+            {
+              "name": "Swimming",
+              "open": "06:00",
+              "close": "11:30",
+              "booking": "advised"
+            },
+            {
+              "name": "Swimming",
+              "open": "11:45",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            4
+          ],
+          "sessions": [
+            {
+              "name": "Swimming",
+              "open": "06:00",
+              "close": "08:45",
+              "booking": "advised"
+            },
+            {
+              "name": "Swimming",
+              "open": "12:00",
+              "close": "17:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Swimming",
+              "open": "06:00",
+              "close": "09:30",
+              "booking": "advised"
+            },
+            {
+              "name": "Swimming",
+              "open": "11:45",
+              "close": "21:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-03",
+          "to": "2026-12-29",
+          "days": [
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Swimming",
+              "open": "09:00",
+              "close": "17:00",
+              "booking": "advised"
+            }
+          ]
+        }
+      ],
+      "note": "The timetable can change at short notice - check the Hampton Pool website for one-off closures.",
+      "publishedUntil": "2026-12-29",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "finchley": {
+      "name": "Finchley Lido",
+      "lat": 51.6048,
+      "lon": -0.1734,
+      "keywords": [
+        "finchley",
+        "north finchley",
+        "barnet",
+        "pool"
+      ],
+      "bookingUrl": "https://www.better.org.uk/leisure-centre/london/barnet/finchley-lido-leisure-centre/activities",
+      "source": {
+        "name": "Better",
+        "url": "https://www.better.org.uk/leisure-centre/london/barnet/finchley-lido-leisure-centre/lido"
+      },
+      "periods": [],
+      "note": "Closed for the season. The lido opens in the summer, on dry days of 22°C or more.",
+      "publishedUntil": null,
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    },
+    "beckenham": {
+      "name": "Beckenham Place Park Lake",
+      "lat": 51.4203,
+      "lon": -0.0173,
+      "keywords": [
+        "beckenham",
+        "lewisham",
+        "catford",
+        "bromley",
+        "lake",
+        "wild swimming",
+        "open water"
+      ],
+      "bookingUrl": "https://booking.sportsguardian.com/ptp-at-beckenham-place-park",
+      "source": {
+        "name": "PTP Coaching",
+        "url": "https://www.ptp.org.uk/"
+      },
+      "periods": [
+        {
+          "from": "2026-10-01",
+          "to": "2026-11-14",
+          "days": [
+            0
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "08:00",
+              "close": "13:00",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-10-01",
+          "to": "2026-11-14",
+          "days": [
+            1
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "07:00",
+              "close": "12:00",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-10-01",
+          "to": "2026-11-14",
+          "days": [
+            3
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "07:00",
+              "close": "12:00",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-10-01",
+          "to": "2026-11-14",
+          "days": [
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "07:00",
+              "close": "12:00",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-10-01",
+          "to": "2026-11-14",
+          "days": [
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "08:00",
+              "close": "13:00",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-15",
+          "to": "2026-12-29",
+          "days": [
+            0
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "08:00",
+              "close": "13:00",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-15",
+          "to": "2026-12-29",
+          "days": [
+            1
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "07:30",
+              "close": "12:30",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-15",
+          "to": "2026-12-29",
+          "days": [
+            3
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "07:30",
+              "close": "12:30",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-15",
+          "to": "2026-12-29",
+          "days": [
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "07:30",
+              "close": "12:30",
+              "booking": "required"
+            }
+          ]
+        },
+        {
+          "from": "2026-11-15",
+          "to": "2026-12-29",
+          "days": [
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lake swim",
+              "open": "08:00",
+              "close": "13:00",
+              "booking": "required"
+            }
+          ]
+        }
+      ],
+      "note": "Swims must be booked in advance with PTP Coaching. Hours change with the seasons.",
+      "publishedUntil": "2026-12-29",
+      "status": "ok",
+      "checkedAt": "2026-11-03T00:09:58.567Z"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+# Refreshes the opening times every morning and publishes the site to GitHub
+# Pages. Also publishes on every push to main, and can be run by hand from the
+# Actions tab ("Run workflow").
+#
+# The refreshed data/timetables.json is committed back to the repository: the
+# updater needs the previous file so a venue whose page can't be read keeps
+# its last known times.
+#
+# If any venue couldn't be read, the site is still published (with that venue's
+# previous times) and the run is then marked as failed, so GitHub emails
+# whoever last edited this file.
+
+name: Update and publish
+
+on:
+  schedule:
+    - cron: '17 4 * * *'  # 04:17 UTC daily; GitHub sometimes starts it a little late
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit the refreshed timetable
+  pages: write      # publish to GitHub Pages
+  id-token: write
+
+# One run at a time, so two runs never race to commit or publish.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      refresh: ${{ steps.refresh.outcome }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      # On a push the site is published as pushed; the times are refreshed on
+      # the schedule and when run by hand.
+      - name: Refresh the opening times
+        id: refresh
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python3 scripts/update_timetables.py
+
+      - name: Commit the refreshed times
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/timetables.json
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+          else
+            git commit -m 'Update opening times'
+            git pull --rebase
+            git push
+          fi
+
+      - name: Gather the site's files
+        run: |
+          mkdir _site
+          cp -r index.html app.js styles.css data _site/
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Report venues that couldn't be updated
+        if: needs.build.outputs.refresh == 'failure'
+        run: |
+          echo "::error::Some venues couldn't be updated and kept their previous times. The 'Refresh the opening times' step in the build job says which and why."
+          exit 1
