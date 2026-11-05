@@ -48,7 +48,8 @@ location), then every spot with its live status, nearest first once we know
 where the visitor is. The current choice is ticked. The pond name's place in
 the question becomes a search field, so you can just start typing ("ladies",
 "mens", "lido", "kenwood" all work). Arrow keys move through the choices,
-Enter picks the first one and Escape closes the list.
+Enter picks the first one. Escape, **Close**, or clicking anywhere that isn't
+a choice, the search field or a button closes the list.
 
 Search also matches each spot's `keywords` (e.g. its area), so "hampstead" or
 "heath" finds every Hampstead Heath spot. It matches from the start of words,
@@ -152,7 +153,8 @@ A period is `{ from, to, days?, replace?, sessions }` with dates as
 
 ## Hosting on GitHub Pages
 
-The site is published by GitHub Actions
+The site is at **https://pondhub.co.uk/** (the custom domain set in
+**Settings → Pages**; `www.pondhub.co.uk` redirects there). It is published by GitHub Actions
 (`.github/workflows/publish.yml`), with **Settings → Pages → Source** set to
 **GitHub Actions**. The workflow:
 

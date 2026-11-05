@@ -712,9 +712,12 @@ els.picker.addEventListener('close', () => {
 
 els.search.addEventListener('input', renderPicker);
 
+// Clicking a choice picks it; clicking anywhere else that isn't the search
+// field or a button closes the list.
 els.picker.addEventListener('click', (event) => {
   const item = event.target.closest('.pick-item');
   if (item) pick(item);
+  else if (!event.target.closest('button, input, label, a')) closePicker();
 });
 
 // Arrow keys move between the search field and the choices; Enter in the
