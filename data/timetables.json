@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:57:06.405Z",
+  "generatedAt": "2026-11-05T12:26:08.388Z",
   "venues": {
     "mixed": {
       "name": "Hampstead Mixed Pond",
@@ -18,7 +18,7 @@
       "note": "Closed for the winter. It re-opens in spring 2027.",
       "publishedUntil": null,
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "ladies": {
       "name": "Kenwood Ladies’ Pond",
@@ -65,7 +65,7 @@
       ],
       "publishedUntil": "2027-02-13",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "mens": {
       "name": "Highgate Men’s Pond",
@@ -110,7 +110,7 @@
       ],
       "publishedUntil": "2027-02-13",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "lido": {
       "name": "Parliament Hill Lido",
@@ -143,7 +143,7 @@
       ],
       "publishedUntil": "2027-04-30",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "brockwell": {
       "name": "Brockwell Lido",
@@ -411,7 +411,7 @@
       "note": "Pool times are set week by week.",
       "publishedUntil": "2026-12-20",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "londonfields": {
       "name": "London Fields Lido",
@@ -515,7 +515,7 @@
       "note": "Times are published a week at a time.",
       "publishedUntil": "2026-11-29",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "oasis": {
       "name": "Oasis Outdoor Pool",
@@ -678,7 +678,7 @@
       "note": "Times are published a week at a time.",
       "publishedUntil": "2026-11-29",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "parkroad": {
       "name": "Park Road Lido",
@@ -762,7 +762,7 @@
       "note": "Weather permitting - the lido can close at short notice.",
       "publishedUntil": "2026-12-31",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "tooting": {
       "name": "Tooting Bec Lido",
@@ -805,7 +805,7 @@
       "note": "Closed for winter. Available on weekends from mid-May, and daily from June to mid-September.",
       "publishedUntil": null,
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "charlton": {
       "name": "Charlton Lido",
@@ -1024,7 +1024,7 @@
       "note": "Times are published a week at a time.",
       "publishedUntil": "2026-11-29",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "hampton": {
       "name": "Hampton Pool",
@@ -1044,8 +1044,8 @@
       },
       "periods": [
         {
-          "from": "2026-11-04",
-          "to": "2026-12-30",
+          "from": "2026-11-05",
+          "to": "2026-12-31",
           "days": [
             0
           ],
@@ -1059,8 +1059,8 @@
           ]
         },
         {
-          "from": "2026-11-04",
-          "to": "2026-12-30",
+          "from": "2026-11-05",
+          "to": "2026-12-31",
           "days": [
             1
           ],
@@ -1080,8 +1080,8 @@
           ]
         },
         {
-          "from": "2026-11-04",
-          "to": "2026-12-30",
+          "from": "2026-11-05",
+          "to": "2026-12-31",
           "days": [
             2
           ],
@@ -1101,8 +1101,8 @@
           ]
         },
         {
-          "from": "2026-11-04",
-          "to": "2026-12-30",
+          "from": "2026-11-05",
+          "to": "2026-12-31",
           "days": [
             3
           ],
@@ -1122,8 +1122,8 @@
           ]
         },
         {
-          "from": "2026-11-04",
-          "to": "2026-12-30",
+          "from": "2026-11-05",
+          "to": "2026-12-31",
           "days": [
             4
           ],
@@ -1143,8 +1143,8 @@
           ]
         },
         {
-          "from": "2026-11-04",
-          "to": "2026-12-30",
+          "from": "2026-11-05",
+          "to": "2026-12-31",
           "days": [
             5
           ],
@@ -1164,8 +1164,8 @@
           ]
         },
         {
-          "from": "2026-11-04",
-          "to": "2026-12-30",
+          "from": "2026-11-05",
+          "to": "2026-12-31",
           "days": [
             6
           ],
@@ -1180,10 +1180,9 @@
         }
       ],
       "note": "The timetable can change at short notice - check the Hampton Pool website for one-off closures.",
-      "publishedUntil": "2026-12-30",
-      "status": "stale",
-      "checkedAt": "2026-11-04T09:18:22.128Z",
-      "error": "couldn't find the swimming timetable"
+      "publishedUntil": "2026-12-31",
+      "status": "ok",
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "finchley": {
       "name": "Finchley Lido",
@@ -1204,7 +1203,7 @@
       "note": "Closed for the season. The lido opens in the summer, on dry days of 22°C or more.",
       "publishedUntil": null,
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     },
     "beckenham": {
       "name": "Beckenham Place Park Lake",
@@ -1379,7 +1378,7 @@
       "note": "Swims must be booked in advance with PTP Coaching. Hours change with the seasons.",
       "publishedUntil": "2026-12-31",
       "status": "ok",
-      "checkedAt": "2026-11-05T00:57:06.405Z"
+      "checkedAt": "2026-11-05T12:26:08.388Z"
     }
   }
 }
