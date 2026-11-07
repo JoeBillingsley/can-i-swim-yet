@@ -63,10 +63,18 @@ jobs:
             git push
           fi
 
+      # Each file's link in the page gets a fingerprint of its contents
+      # (app.js?v=3f9a1c02be), so browsers fetch it again whenever it changes
+      # instead of pairing a new page with an old cached script.
       - name: Gather the site's files
         run: |
           mkdir _site
           cp -r index.html app.js styles.css data _site/
+          for file in app.js styles.css; do
+            version=$(sha256sum "$file" | cut -c1-10)
+            sed -i "s#\"$file\"#\"$file?v=$version\"#" _site/index.html
+            grep -q "\"$file?v=$version\"" _site/index.html || { echo "::error::Couldn't find $file's link in index.html"; exit 1; }
+          done
 
       - uses: actions/upload-pages-artifact@v5
         with:

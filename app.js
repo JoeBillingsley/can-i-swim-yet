@@ -147,7 +147,7 @@ function evaluate(venue, now) {
     if (minutesLeft <= CLOSING_SOON_MINUTES) {
       return {
         state: 'soon',
-        verdict: 'Hurry',
+        verdict: 'Yes, but hurry',
         detail: knowsLastEntry
           ? `Last entry is at ${formatTime(open.lastEntry)} - ${formatDuration(minutesLeft)} from now. Everyone out of the water by ${formatTime(open.close)}.`
           : `It closes at ${formatTime(open.close)} - ${formatDuration(minutesLeft)} from now.`,
@@ -429,7 +429,6 @@ const els = {
   search: $('picker-search'),
   pickerMeta: $('picker-meta'),
   pickerNearest: $('picker-nearest'),
-  pickerAll: $('picker-all'),
   pickerList: $('picker-list'),
 };
 
@@ -497,8 +496,7 @@ function render() {
   els.where.hidden = !els.where.firstChild;
 
   els.verdict.textContent = result.verdict;
-  els.verdict.classList.toggle('mid', result.verdict.length > 3 && result.verdict.length <= 6);
-  els.verdict.classList.toggle('long', result.verdict.length > 6);
+  els.verdict.classList.toggle('long', result.verdict.length > 3);
   els.detail.textContent = result.detail;
   els.countdown.textContent = result.countdown || '';
 
@@ -620,11 +618,10 @@ function renderPicker() {
     els.pickerMeta.textContent = `${app.venues.length} places`;
   }
 
-  // "Nearest to me" and the "All places" heading, except while searching. Keep
-  // the focus on "Nearest to me" if it's redrawn while finding the visitor.
+  // "Nearest to me", except while searching. Keep the focus on it if it's
+  // redrawn while finding the visitor.
   const hadFocus = els.pickerNearest.contains(document.activeElement);
   els.pickerNearest.replaceChildren(...(searching ? [] : [nearestEntry(now)]));
-  els.pickerAll.hidden = searching;
   if (hadFocus && els.pickerNearest.firstChild) els.pickerNearest.firstChild.focus();
 
   // A spot is ticked only when it's one the visitor picked.

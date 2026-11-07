@@ -165,7 +165,10 @@ The site is at **https://pondhub.co.uk/** (the custom domain set in
 - runs on every push to `main`, publishing the site as pushed without
   refreshing the times.
 
-Only `index.html`, `app.js`, `styles.css` and `data/` are published. If any
+Only `index.html`, `app.js`, `styles.css` and `data/` are published. In the
+published page the links to `app.js` and `styles.css` get a fingerprint of the
+file (`app.js?v=3f9a1c02be`), so visitors' browsers fetch a file again as soon
+as it changes rather than mixing a new page with an old cached script. If any
 venue couldn't be updated, the site is still published with that venue's
 previous times and the run is marked as failed, so GitHub emails whoever last
 changed the workflow file. The failed run's "Refresh the opening times" step
