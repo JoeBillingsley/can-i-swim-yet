@@ -153,8 +153,11 @@ A period is `{ from, to, days?, replace?, sessions }` with dates as
 
 ## Hosting on GitHub Pages
 
-The site is at **https://pondhub.co.uk/** (the custom domain set in
-**Settings → Pages**; `www.pondhub.co.uk` redirects there). It is published by GitHub Actions
+The site is at **https://caniswimyet.london/** (the custom domain set in
+**Settings → Pages**; `www.caniswimyet.london` redirects there). DNS for both
+domains is on Cloudflare; the domains are registered at Namecheap.
+**pondhub.co.uk** (and `www.`) permanently redirects to caniswimyet.london,
+keeping the path, using a Cloudflare redirect rule. It is published by GitHub Actions
 (`.github/workflows/publish.yml`), with **Settings → Pages → Source** set to
 **GitHub Actions**. The workflow:
 
