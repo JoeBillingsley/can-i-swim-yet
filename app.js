@@ -468,9 +468,41 @@ function el(tag, className, text) {
   return node;
 }
 
+/* --- rendering: favicon --------------------------------------------------- */
+
+// The browser tab shows the answer too: a tile in the page's colour with a
+// tick (open), a clock (closing soon) or a cross (closed). A ticketed session
+// shows as open - the tab only says whether you can get in. Until there is an
+// answer, the tab keeps the swimmer icon from index.html.
+const FAVICON_STROKE = 'fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"';
+const FAVICON_GLYPHS = {
+  open: `<path d="M9 16.5l4.5 4.5 9.5-10" ${FAVICON_STROKE} stroke-width="3.5"/>`,
+  soon: `<circle cx="16" cy="16" r="8.5" ${FAVICON_STROKE} stroke-width="2.75"/><path d="M16 11v5.5l3.5 2.5" ${FAVICON_STROKE} stroke-width="2.75"/>`,
+  closed: `<path d="M11 11l10 10M21 11L11 21" ${FAVICON_STROKE} stroke-width="3.5"/>`,
+};
+const faviconLink = document.querySelector('link[rel="icon"]');
+const defaultFavicon = faviconLink.href;
+let faviconShown;
+
+function setFavicon(state) {
+  const shown = state === 'ticket' ? 'open' : state;
+  if (shown === faviconShown) return; // render() runs every 30 seconds; only swap on a change
+  faviconShown = shown;
+
+  const glyph = FAVICON_GLYPHS[shown];
+  if (!glyph) {
+    faviconLink.href = defaultFavicon;
+    return;
+  }
+  const colour = getComputedStyle(document.documentElement).getPropertyValue(`--state-${shown}`).trim();
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="${colour}"/>${glyph}</svg>`;
+  faviconLink.href = `data:image/svg+xml,${encodeURIComponent(svg)}`;
+}
+
 function render() {
   if (!app.venues.length) {
     document.body.className = 'state-loading';
+    setFavicon(null);
     els.verdict.textContent = app.loadError ? '?' : '';
     els.detail.textContent = app.loadError ? 'Couldn’t load the opening times. Check your connection and reload the page.' : '';
     els.nearby.hidden = true;
@@ -482,6 +514,7 @@ function render() {
   const result = evaluate(venue, now);
 
   document.body.className = `state-${result.state}` + (els.picker.open ? ' picker-open' : '');
+  setFavicon(result.state);
 
   els.venueName.textContent = venue.name;
   els.venueButton.setAttribute('aria-label', `${venue.name} - choose a different swimming spot`);
