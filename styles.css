@@ -53,8 +53,7 @@ button { font: inherit; color: inherit; }
 /* --- page ----------------------------------------------------------------- */
 
 /* The question, the answer and the nearby places form one group, a little
-   above the middle of the screen, with "Made for the swimmers of London" at
-   the bottom. The spacing inside the group grows a little with screen height
+   above the middle of the screen. The spacing inside the group grows a little with screen height
    but is capped, so on big screens the group stays together rather than
    spreading out. If the group is taller than the screen (small phones, long
    nearby lists) the page simply scrolls. */
@@ -72,11 +71,10 @@ main {
 
 /* Spare height is shared above and below the group in the golden ratio
    (1 : 1.618), which lifts the group a little above the middle. With no spare
-   height both spaces shrink to nothing, so they never push the footer off a
-   screen it would otherwise fit on. */
+   height both spaces shrink to nothing, so they never make the page scroll
+   when the group would otherwise fit. */
 main::before { content: ''; flex: 1 0 0; }
 main::after { content: ''; flex: 1.618 0 0; order: 1; }
-footer { order: 2; }
 
 .group {
   /* The spacing inside the group follows the golden ratio too: the gap from
@@ -270,16 +268,6 @@ footer { order: 2; }
 .status-pill.state-soon,   .status-dot.state-soon   { background: var(--state-soon); }
 .status-pill.state-ticket, .status-dot.state-ticket { background: var(--state-ticket); }
 .status-pill.state-closed, .status-dot.state-closed { background: var(--state-closed); }
-
-footer {
-  font-size: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
-  line-height: 1.5;
-  opacity: 0.8;
-  margin-top: clamp(1.5rem, 4vh, 3rem);
-}
-
-footer p { margin: 0 auto; max-width: 58em; }
-footer a { color: inherit; }
 
 /* --- full-screen picker ------------------------------------------------- */
 
