@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:28:13.742Z",
+  "generatedAt": "2026-11-26T13:57:26.021Z",
   "venues": {
     "mixed": {
       "name": "Hampstead Mixed Pond",
@@ -18,7 +18,7 @@
       "note": "Closed for the winter. It re-opens in spring 2027.",
       "publishedUntil": null,
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "ladies": {
       "name": "Kenwood Ladies’ Pond",
@@ -52,7 +52,7 @@
       ],
       "publishedUntil": "2027-02-13",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "mens": {
       "name": "Highgate Men’s Pond",
@@ -84,7 +84,7 @@
       ],
       "publishedUntil": "2027-02-13",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "lido": {
       "name": "Parliament Hill Lido",
@@ -117,7 +117,7 @@
       ],
       "publishedUntil": "2027-04-30",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "brockwell": {
       "name": "Brockwell Lido",
@@ -275,13 +275,222 @@
               "booking": "advised"
             }
           ]
+        },
+        {
+          "from": "2026-12-21",
+          "to": "2026-12-27",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:15",
+              "close": "15:45",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-21",
+          "to": "2026-12-27",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-28",
+          "to": "2027-01-03",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:30",
+              "close": "15:30",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2026-12-28",
+          "to": "2027-01-03",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2027-01-04",
+          "to": "2027-01-10",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:15",
+              "close": "15:45",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2027-01-04",
+          "to": "2027-01-10",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2027-01-11",
+          "to": "2027-01-17",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:15",
+              "close": "16:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2027-01-11",
+          "to": "2027-01-17",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2027-01-18",
+          "to": "2027-01-24",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:00",
+              "close": "16:15",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2027-01-18",
+          "to": "2027-01-24",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2027-01-25",
+          "to": "2027-01-31",
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "08:00",
+              "close": "16:30",
+              "booking": "advised"
+            }
+          ]
+        },
+        {
+          "from": "2027-01-25",
+          "to": "2027-01-31",
+          "days": [
+            0,
+            6
+          ],
+          "sessions": [
+            {
+              "name": "Lido swim",
+              "open": "07:30",
+              "close": "15:00",
+              "booking": "advised"
+            }
+          ]
         }
       ],
       "note": "Pool times are set week by week.",
-      "publishedUntil": "2026-12-20",
-      "status": "stale",
-      "checkedAt": "2026-11-24T14:55:40.509Z",
-      "error": "brockwell: bad session 08:15-03:00"
+      "publishedUntil": "2027-01-31",
+      "status": "ok",
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "londonfields": {
       "name": "London Fields Lido",
@@ -385,7 +594,7 @@
       "note": "Times are published a week at a time.",
       "publishedUntil": "2026-12-20",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "oasis": {
       "name": "Oasis Outdoor Pool",
@@ -548,7 +757,7 @@
       "note": "Times are published a week at a time.",
       "publishedUntil": "2026-12-20",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "parkroad": {
       "name": "Park Road Lido",
@@ -568,8 +777,8 @@
       },
       "periods": [
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             1,
             2,
@@ -587,8 +796,8 @@
           ]
         },
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             0,
             6
@@ -643,9 +852,9 @@
         }
       ],
       "note": "Weather permitting - the lido can close at short notice.",
-      "publishedUntil": "2027-01-20",
+      "publishedUntil": "2027-01-21",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "tooting": {
       "name": "Tooting Bec Lido",
@@ -688,7 +897,7 @@
       "note": "Closed for winter. Available on weekends from mid-May, and daily from June to mid-September.",
       "publishedUntil": null,
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "charlton": {
       "name": "Charlton Lido",
@@ -907,7 +1116,7 @@
       "note": "Times are published a week at a time.",
       "publishedUntil": "2026-12-20",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "hampton": {
       "name": "Hampton Pool",
@@ -927,8 +1136,8 @@
       },
       "periods": [
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             0
           ],
@@ -942,8 +1151,8 @@
           ]
         },
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             1
           ],
@@ -963,8 +1172,8 @@
           ]
         },
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             2
           ],
@@ -984,8 +1193,8 @@
           ]
         },
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             3
           ],
@@ -1005,8 +1214,8 @@
           ]
         },
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             4
           ],
@@ -1026,8 +1235,8 @@
           ]
         },
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             5
           ],
@@ -1047,8 +1256,8 @@
           ]
         },
         {
-          "from": "2026-11-25",
-          "to": "2027-01-20",
+          "from": "2026-11-26",
+          "to": "2027-01-21",
           "days": [
             6
           ],
@@ -1063,9 +1272,9 @@
         }
       ],
       "note": "The timetable can change at short notice - check the Hampton Pool website for one-off closures.",
-      "publishedUntil": "2027-01-20",
+      "publishedUntil": "2027-01-21",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "finchley": {
       "name": "Finchley Lido",
@@ -1086,7 +1295,7 @@
       "note": "Closed for the season. The lido opens in the summer, on dry days of 22°C or more.",
       "publishedUntil": null,
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     },
     "beckenham": {
       "name": "Beckenham Place Park Lake",
@@ -1109,7 +1318,7 @@
       "periods": [
         {
           "from": "2026-11-15",
-          "to": "2027-01-20",
+          "to": "2027-01-21",
           "days": [
             0
           ],
@@ -1124,7 +1333,7 @@
         },
         {
           "from": "2026-11-15",
-          "to": "2027-01-20",
+          "to": "2027-01-21",
           "days": [
             1
           ],
@@ -1139,7 +1348,7 @@
         },
         {
           "from": "2026-11-15",
-          "to": "2027-01-20",
+          "to": "2027-01-21",
           "days": [
             3
           ],
@@ -1154,7 +1363,7 @@
         },
         {
           "from": "2026-11-15",
-          "to": "2027-01-20",
+          "to": "2027-01-21",
           "days": [
             5
           ],
@@ -1169,7 +1378,7 @@
         },
         {
           "from": "2026-11-15",
-          "to": "2027-01-20",
+          "to": "2027-01-21",
           "days": [
             6
           ],
@@ -1184,9 +1393,9 @@
         }
       ],
       "note": "Swims must be booked in advance with PTP Coaching. Hours change with the seasons.",
-      "publishedUntil": "2027-01-20",
+      "publishedUntil": "2027-01-21",
       "status": "ok",
-      "checkedAt": "2026-11-25T14:28:13.742Z"
+      "checkedAt": "2026-11-26T13:57:26.021Z"
     }
   }
 }
